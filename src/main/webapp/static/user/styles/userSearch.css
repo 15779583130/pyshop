@@ -1,0 +1,29 @@
+		div.searchBox{
+			background: #E8E8Ea;
+			margin: 0px;
+			padding: 0px;
+		}
+		div.searchBox .searchForm{
+			height: 70px;
+			margin: 0px;
+		}
+		div.searchBox .userBt{
+			margin: 0px;
+			padding: 0px;
+			line-height: 70px;
+			color:#222222;
+			font-weight: bold;
+		}
+		div.searchBox .userBt h2{
+			margin: 0px;
+			line-height: 70px;
+		}
+		div.searchBox .col-md-4,
+		div.searchBox .col-md-6{
+			height: 70px;
+		}
+		div.searchInput .searchWidth {
+			display: inline;
+			width: 220px;
+			margin-right: 0px;
+		}

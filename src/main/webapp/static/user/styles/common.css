@@ -1,0 +1,172 @@
+.size{
+	margin-bottom:15px;
+}
+/*灰色页面内面包屑导航*/
+	ul.breadcrumb1{
+		margin-bottom: 5px;
+	}
+	ul.breadcrumb li a{
+		color: #222222;
+	}
+	ol.breadcrumb1{
+		margin-bottom: 0px;
+	}
+	ol.breadcrumb li,
+	ol.breadcrumb li a{
+		/*color: #222222;*/
+		font-size: 16px;
+	}
+	ol.breadcrumb li a:hover{
+		color: #d43f3a;
+	}
+/*代替面包屑导航*/
+		ul.navH{
+			width: 100%;
+			margin: 0px;
+			border-bottom: 1px solid #222222;
+		}
+		
+		.navH li{
+			line-height: 40px;
+			font-weight: bold;
+			list-style: none;
+		}
+		.navH li.navHBt{
+			width: 150px;
+			background: #333333;
+			color: #FFFFFF;
+			margin-top: 1px;
+			text-align: center;
+		}
+		.navH li a{
+			padding-left: 15px;
+			padding-right: 15px;
+			color: #333;
+			text-decoration: none;
+			border-right: 1px solid #9D9D9D;
+			font-size: 15px;
+		}
+		.navH li a.lastBorder{
+			border: none;
+		}
+		.navH li a:hover{
+			color: #AC2925;
+		}
+/*分页*/
+	ul.pagination  li a{
+				color: #222222;
+	}
+	ul.pagination  li a:hover{
+				color: #222222;
+	}
+/*商品热销（左侧div）*/
+	div.sp_rxDiv{
+				border: 1px solid #F7F7F7;
+	}
+	div.sp_rxDiv a{
+		font-size: 12px;
+		color: #666;
+	}
+/*商品列表*/
+	div.splb_div p.splb{
+			text-align: left;
+			margin:10px 0px 0px;
+			width: 70px;
+			background: #559B0D;
+			color: #FFFFFF;
+			text-align: center;
+			border-radius: 2px;
+		}
+/*分页按钮*/
+	div.splb_div ul.fyButton{
+		text-align: right;
+		margin-right: 30px;
+	}
+	div.splb_div ul.pager li a{
+		padding: 1px 7px;
+		border-radius: 2px;	
+		margin-top: 10px;
+		border-radius: 2px;
+	}
+/*轮播图*/
+	div.lbtBootstrap{
+		width:100%;
+		height:350px;
+		overflow-x: hidden;
+	}
+	div.lbtBootstrap div.item img{
+		width:100%;
+		height:350px;
+	}
+	div.lbtBootstrap a.left_right{
+		width: 10%;
+	}
+	div.lbtBootstrap a.left_right img{
+		margin: 130px 0px;
+		width: 30px;
+		height: 40px;
+	}
+	div.lbtBootstrap a.left img:hover{
+		background: url(../images/left2.png);
+	}
+	div.lbtBootstrap a.right img:hover{
+		background: url(../images/right2.png);
+	}
+	div.carousel ol.lbtdot{
+		margin-bottom: 0px;
+	}
+	div.carousel ol.lbtdot li{
+		height: 8px;
+		width: 8px;
+	}
+/*用户信息*/
+	div.userInfoDiv{
+				padding: 0px;
+			}
+	div.userInfoDiv a.formSure{
+		height:20px;
+		padding: 0px 10px;
+	}
+	div.userInfoDiv .headImgDiv{
+		width:100px;
+		height: 100px;
+	}
+	div.userInfoDiv .headImgDiv .clickEditDiv{
+		width: 100px;
+		height: 100px;
+	}
+	div.userInfoDiv .headImgDiv .clickEditDiv{
+		display: none;
+		position: absolute;
+		top: 0px;
+		text-align: center;
+		border-radius: 50%;
+		background-color: rgba(255, 255, 255, .4);
+	}
+	.clickEditDiv a{
+		margin-top: 70px;
+		color: #666;
+	}
+	div.userInfoDiv .headImgDiv:hover{
+		height: 100px;
+		width: 100px;
+	}
+	div.userInfoDiv .headImgDiv:hover .clickEditDiv{
+		display:block;
+		opacity: 1;
+	}
+	a.replaceHI{
+		margin-top: 70px;
+	}
+/*底部维权*/
+
+	div.buttom{
+		background: #222222;
+		color: #F3F3F3;
+		font-size: 12px;
+		text-align: center;
+		margin: 10px 0px 0px 0px;
+		}
+	div.buttom p.copyRight{
+		margin-top: 10px;
+		}
