@@ -1,0 +1,58 @@
+.dingDiv{
+	margin-top: 15px;
+}
+.dingDiv table{
+	margin-bottom: 0px;
+}
+.dingDiv table .borTBNone{
+	border-top: none;
+}
+.dingDiv table .padTb{
+  	padding-top: 4px;
+  	padding-bottom: 4px;
+}
+thead tr th{
+	text-align: center;
+	margin: 10px;
+}
+tbody td{
+	/*height: 120px;*/
+	vertical-align: middle;
+}
+table div.ddxx{
+	font-size: 12px;
+	text-align: left;
+	padding: 5px 5px;
+	
+}
+table div.ddxx span{
+	margin-right: 20px;
+}
+table div.ddxx .ddzt{
+	color: #D43F3A;
+}
+div.bbxx{
+	padding: 2px;
+	height: 90px;
+}
+div.bbxx img{
+	width: 100px;
+	height: 80px;
+	float: left;
+	margin: 3px;
+}
+div.bbxx .name{
+	text-align: left;
+}
+div.bbxx .name p{
+	margin: 10px;
+}
+td a.dele:hover{
+	background: #D43F3A;
+	color: #FFFFFF;
+	border: none;
+}
+.dingDiv .dingOne .dingTow table ,
+.dingDiv .dingOne .dingTow table td{
+	border-top: none !important;
+}

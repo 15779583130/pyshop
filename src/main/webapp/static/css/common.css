@@ -1,0 +1,72 @@
+/**{*/
+    /*font-size:15px;*/
+/*}*/
+/*.myul{*/
+    /*border-radius:6px;*/
+    /*padding:0;*/
+    /*background-color:#fff;*/
+    /*box-shadow:0 1px 4px rgba(0,0,0,065);*/
+/*}*/
+
+/*.myul li a{*/
+    /*display:block;*/
+    /*border-top:1px solid #e5e5e5;*/
+    /*margin-top:-1px;*/
+
+/*}*/
+/*#route ol{*/
+    /*font-size:20px;*/
+/*}*/
+
+/*.jumbotron{*/
+    /*min-height:400px;*/
+/*}*/
+/*.jumbotron h1{*/
+    /*line-height:250px;*/
+    /*text-align:center;*/
+/*}*/
+/*#copy_right{*/
+    /*text-align: center;*/
+    /*margin:0 auto;*/
+/*}*/
+/*#content{*/
+    /*min-height:450px;*/
+/*}*/
+/*tr,th{*/
+    /*text-align: center;*/
+/*}*/
+/*.pagination li a{*/
+    /*margin-right:5px;*/
+/*}*/
+
+/*tr td{*/
+    /*vertical-align:middle !important;*/
+/*}*/
+/*.mycontent{*/
+    /*min-height:450px;*/
+/*}*/
+/*.myform{*/
+    /*margin-bottom:15px;*/
+/*}*/
+
+body{
+    /*  background-image: url("image/xinkong.jpg");
+      background-repeat: no-repeat;
+      background-size: 100%;*/
+    /*background-image: url("../images/liuxing1.jpg");*/
+    /*background-color: #e8e2db;*/
+    /*background: url("../images/liuxing3.jpg");*/
+    background-size: 100%;
+    background-color: #e8e2db;
+}
+
+h5,.pagination{
+    margin: 0;
+}
+
+.navbar-static-top{
+    padding:0px 10px;
+}
+tr,th{
+    text-align: center;
+}

@@ -1,0 +1,141 @@
+		
+		div.smkj_goods div.goodsDiv{
+			margin-bottom: 20px;
+			text-align:center;
+		}
+		
+		div.smkj_goods h3{
+			margin: 10px 0px 15px;
+			color: #6E6E6E;
+			font-family: "微软雅黑";
+			text-align: center;
+		}
+		div.smkj_goods div.smkjp_img{
+			text-align: center;
+			padding-top: 10px;
+			margin-top: 10px;
+		}
+		
+		div.smkj_goods div.smkj_rowDiv div:hover{
+			background: #F3F3F3;
+		}
+		div.smkj_goods div.smkj_img{
+			margin-top: 10px;
+		}
+		div.smkj_goods div.smkj_img img{
+			border: 1px solid #f3f3f3;
+		}
+		
+		div.smkj_goods a{
+		text-decoration: none;
+		font-size: 12px;
+		color: #737373;
+		}
+		
+		div.smkj_goods a:hover{
+		text-decoration:underline;
+		font-size: 12px;
+		color: #D43F3A;
+		}
+		div.smkjp_img p.textover{
+		white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-top: 5px;
+		}
+		
+		div.row p span.money{
+		font-weight: bold;
+		font-size: 20px;
+		}
+		
+		div.smkj_goods  button{
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		}
+		
+		div.smkj_goods div.smkj_bt{
+			border-bottom: 2px solid #F3F3F3;
+		}
+		
+/*固定导航*/
+		ul.navFix{
+			width: 100%;
+			margin: 0px;
+			height: 70px;
+		}
+		
+		.navFix li{
+			margin-top:30px;
+			line-height: 40px;
+			font-weight: bold;
+			
+			list-style: none;
+		}
+		.navFix li.navFixBt{
+			width: 150px;
+			background: #333333;
+			color: #FFFFFF;
+			margin-top: 1px;
+			text-align: center;
+		}
+		.navFix li a{
+			padding-left: 15px;
+			padding-right: 15px;
+			color: #333;
+			text-decoration: none;
+			border-right: 1px solid #9D9D9D;
+			font-size: 15px;
+		}
+		.navFix li a.lastBorder{
+			border: none;
+		}
+		.navFix li a:hover{
+			color: #AC2925;
+		}
+		
+/*商品筛选*/
+		div.conditionCheck{
+			/*border-top: 1px solid #;*/
+			padding-top: 7px;
+			height: 45px;
+			background: #F3F3F3;
+			border-top: 1px #9D9D9D solid;
+			color: #666;
+		}
+		div.conditionCheck .inputDate{
+			line-height: 20px;
+			float: left;
+		}
+		em,
+		span.priceText,
+		span.searchCT{
+			float: left;
+			margin: auto 10px;
+		}
+		div.conditionCheck .input_price{
+			float: left;
+			width: 60px;
+		}
+		div.conditionCheck a.priceCheckSure{
+			width: 50px;
+			font-size: 12px;
+			height: 24px;
+			padding-top: 3px;
+			margin-left:15px;
+		}
+		.nav_price{
+			margin-top: -12px;
+		}
+		.nav_price a:link{
+			color: #000000;
+		}
+		.nav_price a:hover{
+			color: #EE0000;
+		}
+		.nav_price .price_range{
+			width: 500px;
+			margin-top: 15px;
+			color:#000000;
+		}
